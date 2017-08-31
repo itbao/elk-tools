@@ -1,0 +1,2 @@
+METHOD=$(basename $0|tr 'a-z' 'A-Z')
+curl -s -X${METHOD} 192.168.36.100:9200/$*
